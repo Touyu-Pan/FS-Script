@@ -5,6 +5,7 @@ import random
 import keyboard
 import os
 
+# for 1920*1080 size screen
 # run script
 def run():
     # Run script every n seconds
