@@ -11,11 +11,11 @@ def run():
 
     # mouse control
     # close alert window
-    pyautogui.moveTo(x=1384, y=879, duration=1)
+    pyautogui.moveTo(x=1384, y=879, duration=0.1)
     pyautogui.click()
 
     # start game
-    pyautogui.moveTo(x=1300, y=817, duration=1)
+    pyautogui.moveTo(x=1300, y=817, duration=0.1)
     pyautogui.click()
 
 def terminate_():

@@ -16,7 +16,6 @@ def run():
     pyautogui.moveTo(x=1278, y=783, duration=0.5)
     pyautogui.click()
     key_event_('s')
-
     # start game
     pyautogui.moveTo(x=1840, y=1065, duration=0.5)
     pyautogui.click()
