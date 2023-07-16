@@ -11,19 +11,17 @@ def run():
     # Run script every n seconds
     threading.Timer(random.uniform(8.0, 8.3), run).start()
 
-    # mouse control
+    # mouse controlss
     # close alert window
-    pyautogui.moveTo(x=958, y=603, duration=0.5)
-    pyautogui.click()
+
+    pyautogui.click(x=958, y=603)
     key_event_('s')
 
     # start game
-    pyautogui.moveTo(x=1520, y=885, duration=0.5)
-    pyautogui.click()
+    pyautogui.click(x=1520, y=885)
 
     # surrender
-    pyautogui.moveTo(x=348, y=845, duration=0.2)
-    pyautogui.click()
+    pyautogui.click(x=348, y=845)
 
     # keyboard control
     # movement
